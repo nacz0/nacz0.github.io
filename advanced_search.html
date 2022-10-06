@@ -2,8 +2,41 @@
 <html lang="en">
    <head>
       <title>Google Advanced Search</title>
+      <link rel="stylesheet" href="styles.css">
    </head>
    <body>
+      <div class="container">
+         <form action="https://www.google.com/search" name="f" id="form" class="flex">
+            <div class="field">
+               <label for="field1">All of these words</label>
+               <input type="text" name="as_q" value="">
+            </div>
+            <br>
+            <div class="field">
+               <label for="field2">This exact words</label>
+               <input type="text" name="as_epq" value="">
+            </div>
+            <br>
+            <div class="field">
+               <label for="field3">Any of this words</label>
+               <input type="text" name="as_oq" value="">
+            </div>
+            <br>
+            <div class="field">
+               <label for="field4">None of this words</label>
+               <input type="text" name="as_eq" value="">
+            </div>
+
+            <div class="button_adv">
+               <input type="submit" value="Advanced Search">
+           </div>
+
+         </form>
+
+         <div class="topright">
+            <a href="index.html">Google Search</a>
+         </div>
+      </div>
 
    </body>
 </html>
