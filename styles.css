@@ -67,6 +67,7 @@
         border-width: 1px;
         width: 585px;
         height: 25px;
+        color:white;
      }
 
      .field input:focus 
